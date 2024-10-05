@@ -1,1 +1,1 @@
-# Star-Chart-Generator
+# Evolving Chemosynthetic Ecosystem Simulator
