@@ -1,0 +1,246 @@
+image_url,image_caption,object_name,object_description,r_a_position,dec_position,Constellation,distance(lightyear),dimension(arcminutes),Instrument
+STScI-01GA6KNV1S3TP2JBPCDT8G826T.png (2000×1158) (stsci-opo.org),"What looks much like craggy mountains on a moonlit evening is actually the edge of a nearby, young, star-forming region NGC 3324 in the Carina Nebula. Captured in infrared light by the Near-Infrared Camera (NIRCam) on NASA’s James Webb Space Telescope, this image reveals previously obscured areas of star birth.
+
+Called the Cosmic Cliffs, the region is actually the edge of a gigantic, gaseous cavity within NGC 3324, roughly 7,600 light-years away. The cavernous area has been carved from the nebula by the intense ultraviolet radiation and stellar winds from extremely massive, hot, young stars located in the center of the bubble, above the area shown in this image. The high-energy radiation from these stars is sculpting the nebula’s wall by slowly eroding it away.  
+
+NIRCam – with its crisp resolution and unparalleled sensitivity – unveils hundreds of previously hidden stars, and even numerous background galaxies. Several prominent features in this image are described below.
+
+The “steam” that appears to rise from the celestial “mountains” is actually hot, ionized gas and hot dust streaming away from the nebula due to intense, ultraviolet radiation. 
+Dramatic pillars rise above the glowing wall of gas, resisting the blistering ultraviolet radiation from the young stars.
+Bubbles and cavities are being blown by the intense radiation and stellar winds of newborn stars.
+Protostellar jets and outflows, which appear in gold, shoot from dust-enshrouded, nascent stars.
+A “blow-out” erupts at the top-center of the ridge, spewing gas and dust into the interstellar medium. 
+An unusual “arch” appears, looking like a bent-over cylinder.
+This period of very early star formation is difficult to capture because, for an individual star, it lasts only about 50,000 to 100,000 years – but Webb’s extreme sensitivity and exquisite spatial resolution have chronicled this rare event.
+
+Located roughly 7,600 light-years away, NGC 3324 was first catalogued by James Dunlop in 1826. Visible from the Southern Hemisphere, it is located at the northwest corner of the Carina Nebula (NGC 3372), which resides in the constellation Carina. The Carina Nebula is home to the Keyhole Nebula and the active, unstable supergiant star called Eta Carinae. 
+
+NIRCam was built by a team at the University of Arizona and Lockheed Martin’s Advanced Technology Center",NGC 3324,"Star-forming region in the Carina Nebula
+",10:36:59,-58:37:00,Carina,"7,600",7.3,NIRCam
+STScI-01J3DPF8JHT251MQEX0CNJ99GW.png (2000×2000) (stsci-opo.org),"NASA’s James Webb Space Telescope’s NIRCam (Near-Infrared Camera) image of the galaxy cluster PLCK G165.7+67.0, also known as G165. A foreground cluster, located 3.6 billion light-years away from Earth, is magnifying and bending the light of the distant universe beyond. In this image, astronomers discovered the light of an exploding star — more specifically, a Type Ia supernova — imaged three times, seen as points of light within the prominent red arc at the right-center of the image.
+
+To achieve three images, the light traveled along three different paths. Since each path had a different length, and light traveled at the same speed, the supernova was imaged in this Webb observation at three different times during its explosion. The multiply-imaged supernova offers astronomers a unique way to calculate a new value for the Hubble constant — the rate at which the universe is accelerating. 
+
+The field of G165 is known for a high rate of star formation of more than 300 solar masses per year, an attribute that correlates with higher supernova rates.
+
+In this image, blue represents light at 0.9, 1.15, and 1.5 microns (F090W + F115W + F150W), green is 2.0 and 2.77 microns (F200W + F277W), and red is 3.56, 4.1, and 4.44 microns (F356W + F410M + F444W).
+
+",G165,Galaxy cluster and supernova,11:27:16,42:28:33,Ursa Major,3600000000,1.5,NIRCam
+https://stsci-opo.org/STScI-01J748X0ZXT252FZ802FWB5608.png,"This composite image of Arp 107, created with data from the James Webb Space Telescope’s NIRCam (Near-Infrared Camera) and MIRI (Mid-Infrared Instrument) reveal a wealth of information about the star-formation and how these two galaxies collided hundreds of million years ago.
+
+The near-infrared data, shown in white, shows older stars, which shine brightly in both galaxies, as well as the tenuous bridge of gas and stars that runs between them. The vibrant background galaxies are also brightly illuminated in this wavelength.
+
+On the other hand, MIRI data shows the young stars and star-forming regions in vibrant orange and red. Our view in the mid-infrared provides the best view of the collision point, given the noticeable gap at the top of the spiral galaxy. This collision not only began a new bout of star formation in the region, but also an endearing smile.",Arp 107,Interacting Galaxies,10:52:17,4:30:00,Leo Minor,450000000,5.2,NIRCam + MIRI
+https://stsci-opo.org/STScI-01HQNV4QZ16BPB3TBEVMYS3G7N.png,"This image from NASA’s James Webb Space Telescope’s NIRCam (Near-Infrared Camera) of star-forming region NGC 604 shows how stellar winds from bright, hot young stars carve out cavities in surrounding gas and dust.
+
+The bright orange streaks in this image signify the presence of carbon-based molecules known as polycyclic aromatic hydrocarbons, or PAHs. As you travel further from the immediate cavities of dust where the star is forming, the deeper red signifies molecular hydrogen. This cooler gas is a prime environment for star formation. Hydrogen ionized by ultraviolet radiation appears as a white and blue ghostly glow.
+
+NGC 604 is located in the Triangulum galaxy (M33), 2.73 million light-years away from Earth. It provides an opportunity for astronomers to study a high concentration of very young, massive stars in a relatively nearby region.","NGC 604, M33",Star Forming Region in Spiral Galaxy M33,1:34:34,30:46:59,Triangulum,"2,730,000",2.1,NIRCam
+https://stsci-opo.org/STScI-01HQP6HC5D1NMKD35BAC1VM8AW.png,"This image from NASA’s James Webb Space Telescope’s MIRI (Mid-Infrared Instrument) of star-forming region NGC 604 shows how large clouds of cooler gas and dust glow in mid-infrared wavelengths. This region is a hotbed of star formation and home to more than 200 of the hottest, most massive kinds of stars, all in the early stages of their lives.
+
+In the MIRI view of NGC 604, there are noticeably fewer stars than Webb’s NIRCam image. This is because hot stars emit much less light at these wavelengths. Some of the stars seen in this image are red supergiants—stars that are cool but very large, hundreds of times the diameter of our Sun. The blue tendrils of material signify the presence of polycyclic aromatic hydrocarbons, or PAHs.","NGC 604, M33",Star Forming Region in Spiral Galaxy M33,1:34:34,30:46:59,Triangulum,"2,730,000",1.8,NIRCam + MIRI
+https://stsci-opo.org/STScI-01HM9ZG8GJAANKFKCJJX18G71B.png,"Face-on spiral galaxy, NGC 1566, is split diagonally in this image: The James Webb Space Telescope’s observations appear on bottom right, and the Hubble Space Telescope’s at top left. Webb and Hubble’s images show a striking contrast, an inverse of darkness and light. Why? Webb’s observations combine near- and mid-infrared light and Hubble’s showcase visible and ultraviolet light. Dust absorbs ultraviolet and visible light, and then re-emits it in the infrared. In Webb's images, we see dust glowing in infrared light. In Hubble’s images, dark regions are where starlight is absorbed by dust.
+
+The individual Webb and Hubble images are available for download using the links on the left side of this page.
+
+Color Decoder
+Gas and Dust
+In Webb’s high-resolution infrared images, the gas and dust stand out in stark shades of orange and red, and show finer spiral shapes with the appearance of jagged edges, though these areas are still diffuse.
+
+In Hubble’s images, the gas and dust show up as hazy dark brown lanes, following the same spiral shapes. Its images are about the same resolution as Webb’s, but the gas and dust obscure a lot of the smaller-scale star formation.
+
+Bright Central Spikes
+Bright red diffraction spikes at a galaxy’s core in a Webb image can be a “calling card” of an active supermassive black hole, as seen in galaxy NGC 7496. Not all oversized diffraction spikes at galaxies’ cores are caused by black holes, though. Sometimes, they appear when a slew of very bright, centrally located star clusters are in the central region of Webb’s image.
+
+In Hubble’s images, the galaxies’ cores are not as bright so these spikes are absent. Diffraction spikes only appear when the source is extremely bright and compact.
+
+Older Stars
+Sometimes, the central region in Webb’s image has a blue glow. This is a marker of high concentrations of older stars. Webb’s infrared observations allow us to see through the gas and dust to identify these older stars. The light these old stars emit are some of the shortest infrared wavelengths in Webb’s images, which is why they are assigned blue. (Read more about how color is precisely applied to Webb’s images.)
+
+In comparison, the cores of Hubble’s image may appear yellower, washing the central region in a soft glow and fully obscuring individual points of light. Hazy brown dust lanes may also cover part of this area. In Hubble’s images, older stars are emitting some of the longest wavelengths of visible light Hubble captures, which is why the color assignments are different. (Compare the wavelengths of light Hubble and Webb observe.)
+
+Younger Stars
+In Webb’s image, the newly fully formed stars also appear blue along the galaxies’ spiral arms. Those blue stars have blown away the gas and dust that immediately surrounded them. The farther away they are from the core, the more likely stars are to be younger. Orange stars, likely seen in groups in these images, are even younger: They are still encased in their cocoons of gas and dust, allowing them to continue forming.
+
+In Hubble’s images, younger stars pop out in blue and purple – and appear almost everywhere. In contrast, the older stars near the center of the galaxy appear yellowish.
+
+Star-Forming Regions
+Look for knots of bright red and orange in Webb’s image. These are especially easy to identify toward the outer edges of the galaxy’s spiral arms. These are regions of star formation, and mid-infrared light highlights the gas and dust that are a huge part of the mix, since they are primary ingredients for stars that are actively forming.
+
+In Hubble’s images, star-forming regions are clusters of bright blue and purple, or sometimes red and pink as hot stars energize nearby hydrogen gas.
+
+Background galaxies
+Webb’s image includes distant galaxies that are located well behind the tightly cropped foreground galaxy. Look for bright blue and pink disks, some seen edge-on, like a plate with a central sphere. Redder galaxies are more distant.
+
+In Hubble’s view, distant galaxies are often light orange if they are slightly closer. Like in Webb's image, those that are deeper red are also more distant.
+
+Galaxy NGC 1566 was observed as part of the Physics at High Angular resolution in Nearby GalaxieS (PHANGS) program, a large project that includes observations from several space- and ground-based telescopes of many galaxies to help researchers study all phases of the star formation cycle, from the formation of stars within dusty gas clouds to the energy released in the process that creates the intricate structures revealed by Webb’s new images.
+
+NGC 1566 is 60 million light-years away in the constellation Dorado.",	NGC 1566,Spiral galaxy,4:20:00,-54:56:15,Dorado,60000000,"25,000",Webb+ NIRCam+MIRI Hubble+WFC3/UVIS
+https://stsci-opo.org/STScI-01HMA4QGAKSKZ0Z1JQD5YZJW4Q.png,"Caption
+Face-on spiral galaxy, NGC 2835, is split diagonally in this image: The James Webb Space Telescope’s observations appear at top left, and the Hubble Space Telescope’s on bottom right. Webb and Hubble’s images show a striking contrast, an inverse of darkness and light. Why? Webb’s observations combine near- and mid-infrared light and Hubble’s showcase visible and ultraviolet light. Dust absorbs ultraviolet and visible light, and then re-emits it in the infrared. In Webb's images, we see dust glowing in infrared light. In Hubble’s images, dark regions are where starlight is absorbed by dust.
+
+The individual Webb and Hubble images are available for download using the links on the left side of this page.
+
+Color Decoder
+Gas and Dust
+In Webb’s high-resolution infrared images, the gas and dust stand out in stark shades of orange and red, and show finer spiral shapes with the appearance of jagged edges, though these areas are still diffuse.
+
+In Hubble’s images, the gas and dust show up as hazy dark brown lanes, following the same spiral shapes. Its images are about the same resolution as Webb’s, but the gas and dust obscure a lot of the smaller-scale star formation.
+
+Bright Central Spikes
+Bright red diffraction spikes at a galaxy’s core in a Webb image can be a “calling card” of an active supermassive black hole, as seen in galaxy NGC 7496. Not all oversized diffraction spikes at galaxies’ cores are caused by black holes, though. Sometimes, they appear when a slew of very bright, centrally located star clusters are in the central region of Webb’s image.
+
+In Hubble’s images, the galaxies’ cores are not as bright so these spikes are absent. Diffraction spikes only appear when the source is extremely bright and compact.
+
+Older Stars
+Sometimes, the central region in Webb’s image has a blue glow. This is a marker of high concentrations of older stars. Webb’s infrared observations allow us to see through the gas and dust to identify these older stars. The light these old stars emit are some of the shortest infrared wavelengths in Webb’s images, which is why they are assigned blue. (Read more about how color is precisely applied to Webb’s images.)
+
+In comparison, the cores of Hubble’s image may appear yellower, washing the central region in a soft glow and fully obscuring individual points of light. Hazy brown dust lanes may also cover part of this area. In Hubble’s images, older stars are emitting some of the longest wavelengths of visible light Hubble captures, which is why the color assignments are different. (Compare the wavelengths of light Hubble and Webb observe.)
+
+Younger Stars
+In Webb’s image, the newly fully formed stars also appear blue along the galaxies’ spiral arms. Those blue stars have blown away the gas and dust that immediately surrounded them. The farther away they are from the core, the more likely stars are to be younger. Orange stars, likely seen in groups in these images, are even younger: They are still encased in their cocoons of gas and dust, allowing them to continue forming.
+
+In Hubble’s images, younger stars pop out in blue and purple – and appear almost everywhere. In contrast, the older stars near the center of the galaxy appear yellowish.
+
+Star-Forming Regions
+Look for knots of bright red and orange in Webb’s image. These are especially easy to identify toward the outer edges of the galaxy’s spiral arms. These are regions of star formation, and mid-infrared light highlights the gas and dust that are a huge part of the mix, since they are primary ingredients for stars that are actively forming.
+
+In Hubble’s images, star-forming regions are clusters of bright blue and purple, or sometimes red and pink as hot stars energize nearby hydrogen gas.
+
+Background Galaxies
+Webb’s image includes distant galaxies that are located well behind the tightly cropped foreground galaxy. Look for bright blue and pink disks, some seen edge-on, like a plate with a central sphere. Redder galaxies are more distant.
+
+In Hubble’s view, distant galaxies are often light orange if they are slightly closer. Like in Webb’s image, those that are deeper red are also more distant.
+
+Galaxy NGC 2835 was observed as part of the Physics at High Angular resolution in Nearby GalaxieS (PHANGS) program, a large project that includes observations from several space- and ground-based telescopes of many galaxies to help researchers study all phases of the star formation cycle, from the formation of stars within dusty gas clouds to the energy released in the process that creates the intricate structures revealed by Webb’s new images.
+
+NGC 2835 is 35 million light-years away in the constellation Hydra.",NGC 2835,Barred spiral galaxy,9:17:53,-22:21:16,Hydra,35000000,4.386,Webb+ NIRCam+MIRI+Hubble+WFC3/UVIS
+https://stsci-opo.org/STScI-01HV4BDR9C8MNJGJNS9TNE78YX.png,"Caption
+This image of the Horsehead Nebula from NASA’s James Webb Space Telescope focuses on a portion of the horse’s “mane” that is about 0.8 light-years in width. It was taken with Webb’s NIRCam (Near-infrared Camera). The ethereal clouds that appear blue at the bottom of the image are filled with a variety of materials including hydrogen, methane, and water ice. Red-colored wisps extending above the main nebula represent both atomic and molecular hydrogen. In this area, known as a photodissociation region, ultraviolet light from nearby young, massive stars creates a mostly neutral, warm area of gas and dust between the fully ionized gas above and the nebula below. As with many Webb images, distant galaxies are sprinkled in the background.
+
+This image is composed of light at wavelengths of 1.4 and 2.5 microns (represented in blue), 3.0 and 3.23 microns (cyan), 3.35 microns (green), 4.3 microns (yellow), and 4.7 and 4.05 microns (red).","	Horsehead Nebula, Barnard 33",Star-forming region,5:40:53,-2:28:47,	Orion,"1,300",2.1,        NIRCam
+https://stsci-opo.org/STScI-01HWDBW8X37TMQKWGY532CFS7E.png,"Caption This image of the Horsehead Nebula from NASA’s James Webb Space Telescope focuses on a portion of the horse’s “mane.” It was taken with Webb’s MIRI (Mid-Infrared Instrument). Mid-infrared light captures the glow of substances like dusty silicates and soot-like molecules called polycyclic aromatic hydrocarbons. In this image, blue represents light at wavelengths of 5.6, 7.7, and 10 microns; green is 11, 12, and 15 microns; and red is 18, 21, and 25 microns.","Horsehead Nebula, Barnard 33",Star-forming region,5:40:53,-2:28:47,Orion,"1,300",1.3,MIRI
+https://stsci-opo.org/STScI-01HRD3BSQ4GNW2KN7J3G5BPBVR.png,"Caption
+Astronomers used the James Webb Space Telescope to look toward M82’s center, where a galactic wind is being launched as a result of rapid star formation and subsequent supernovas. Studying the galactic wind can offer insight into how the loss of gas shapes the future growth of the galaxy.
+
+This image from Webb’s NIRCam (Near-Infrared Camera) instrument shows M82’s galactic wind via emission from sooty chemical molecules known as polycyclic aromatic hydrocarbons (PAHs). PAHs are very small dust grains that survive in cooler temperatures but are destroyed in hot conditions. The structure of the emission resembles that of hot, ionized gas, suggesting PAHs may be replenished by continued ionization of molecular gas.
+
+In this image, light at 3.35 microns is colored red, 2.50 microns is green, and 1.64 microns is blue (filters F335M, F250M, and F164N, respectively). ","M82, NGC 3034",Starburst Galaxy,9:55:52,69:40:49,Ursa Major,12000000,36,        JWST+NIRCam
+https://stsci-opo.org/STScI-01HMC2VAHJRPDZW8EE9XM2ZAHR.png,"Caption
+Face-on spiral galaxy, NGC 7496, is split diagonally in this image: The James Webb Space Telescope’s observations appear on bottom right, and the Hubble Space Telescope’s at top left. Webb and Hubble’s images show a striking contrast, an inverse of darkness and light. Why? Webb’s observations combine near- and mid-infrared light and Hubble’s showcase visible and ultraviolet light. Dust absorbs ultraviolet and visible light, and then re-emits it in the infrared. In Webb's images, we see dust glowing in infrared light. In Hubble’s images, dark regions are where starlight is absorbed by dust.
+
+The individual Webb and Hubble images are available for download using the links on the left side of this page.
+
+Color Decoder
+Gas and Dust
+In Webb’s high-resolution infrared images, the gas and dust stand out in stark shades of orange and red, and show finer spiral shapes with the appearance of jagged edges, though these areas are still diffuse.
+
+In Hubble’s images, the gas and dust show up as hazy dark brown lanes, following the same spiral shapes. Its images are about the same resolution as Webb’s, but the gas and dust obscure a lot of the smaller-scale star formation.
+
+Bright Central Spikes
+Bright red diffraction spikes at a galaxy’s core in a Webb image can be a “calling card” of an active supermassive black hole, as seen in galaxy NGC 7496 above. Not all oversized diffraction spikes at galaxies’ cores are caused by black holes, though. Sometimes, they appear when a slew of very bright, centrally located star clusters are in the central region of Webb’s image.
+
+In Hubble’s images, the galaxies’ cores are not as bright so these spikes are absent. Diffraction spikes only appear when the source is extremely bright and compact.
+
+Older Stars
+Sometimes, the central region in Webb’s image has a blue glow. This is a marker of high concentrations of older stars. Webb’s infrared observations allow us to see through the gas and dust to identify these older stars. The light these old stars emit are some of the shortest infrared wavelengths in Webb’s images, which is why they are assigned blue. (Read more about how color is precisely applied to Webb’s images.)
+
+In comparison, the cores of Hubble’s image may appear yellower, washing the central region in a soft glow and fully obscuring individual points of light. Hazy brown dust lanes may also cover part of this area. In Hubble’s images, older stars are emitting some of the longest wavelengths of visible light Hubble captures, which is why the color assignments are different. (Compare the wavelengths of light Hubble and Webb observe.)
+
+Younger Stars
+In Webb’s image, the newly fully formed stars also appear blue along the galaxies’ spiral arms. Those blue stars have blown away the gas and dust that immediately surrounded them. The farther away they are from the core, the more likely stars are to be younger. Orange stars, likely seen in groups in these images, are even younger: They are still encased in their cocoons of gas and dust, allowing them to continue forming.
+
+In Hubble’s images, younger stars pop out in blue and purple – and appear almost everywhere. In contrast, the older stars near the center of the galaxy appear yellowish.
+
+Star-Forming Regions
+Look for knots of bright red and orange in Webb’s image. These are especially easy to identify toward the outer edges of the galaxy’s spiral arms. These are regions of star formation, and mid-infrared light highlights the gas and dust that are a huge part of the mix, since they are primary ingredients for stars that are actively forming.
+
+In Hubble’s images, star-forming regions are clusters of bright blue and purple, or sometimes red and pink as hot stars energize nearby hydrogen gas.
+
+Background Galaxies
+Webb’s image includes distant galaxies that are located well behind the tightly cropped foreground galaxy. Look for bright blue and pink disks, some seen edge-on, like a plate with a central sphere. Redder galaxies are more distant.
+
+In Hubble’s view, distant galaxies are often light orange if they are slightly closer. Like in Webb's image, those that are deeper red are also more distant.
+
+Galaxy NGC 7496 was observed as part of the Physics at High Angular resolution in Nearby GalaxieS (PHANGS) program, a large project that includes observations from several space- and ground-based telescopes of many galaxies to help researchers study all phases of the star formation cycle, from the formation of stars within dusty gas clouds to the energy released in the process that creates the intricate structures revealed by Webb’s new images.
+
+NGC 7496 is 24 million light-years away in the constellation Grus.",NGC 7496,Barred spiral galaxy,23:09:48,-43:25:20,Grus,24000000,2.785,"Webb> NIRCam, MIRI Hubble> WFC3/UVIS"
+https://stsci-opo.org/STScI-01HM9TNEQ0M5XFSAJ9NBHJFSXW.png,"Caption
+Face-on spiral galaxy, NGC 1087, is split diagonally in this image: The James Webb Space Telescope’s observations appear at top left, and the Hubble Space Telescope’s on bottom right. Webb and Hubble’s images show a striking contrast, an inverse of darkness and light. Why? Webb’s observations combine near- and mid-infrared light and Hubble’s showcase visible and ultraviolet light. Dust absorbs ultraviolet and visible light, and then re-emits it in the infrared. In Webb's images, we see dust glowing in infrared light. In Hubble’s images, dark regions are where starlight is absorbed by dust.
+
+The individual Webb and Hubble images are available for download using the links on the left side of this page.
+
+Color Decoder
+Gas and Dust
+In Webb’s high-resolution infrared images, the gas and dust stand out in stark shades of orange and red, and show finer spiral shapes with the appearance of jagged edges, those these areas are still diffuse.
+
+In Hubble’s images, the gas and dust show up as hazy dark brown lanes, following the same spiral shapes. Its images are about the same resolution as Webb’s, but the gas and dust obscure a lot of the smaller-scale star formation.
+
+Bright Central Spikes
+Bright red diffraction spikes at a galaxy’s core in a Webb image can be a “calling card” of an active supermassive black hole, as seen in galaxy NGC 7496. Not all oversized diffraction spikes at galaxies’ cores are caused by black holes, though. Sometimes, they appear when a slew of very bright, centrally located star clusters are in the central region of Webb’s image.
+
+In Hubble’s images, the galaxies’ cores are not as bright so these spikes are absent. Diffraction spikes only appear when the source is extremely bright and compact.
+
+Older Stars
+Sometimes, the central region in Webb’s image has a blue glow. This is a marker of high concentrations of older stars. Webb’s infrared observations allow us to see through the gas and dust to identify these older stars. The light these old stars emit are some of the shortest infrared wavelengths in Webb’s images, which is why they are assigned blue. (Read more about how color is precisely applied to Webb’s images.)
+
+In comparison, the cores of Hubble’s image may appear yellower, washing the central region in a soft glow and fully obscuring individual points of light. Hazy brown dust lanes may also cover part of this area. In Hubble’s images, older stars are emitting some of the longest wavelengths of visible light Hubble captures, which is why the color assignments are different. (Compare the wavelengths of light Hubble and Webb observe.)
+
+Younger Stars
+In Webb’s image, the newly fully formed stars also appear blue along the galaxies’ spiral arms. Those blue stars have blown away the gas and dust that immediately surrounded them. The farther away they are from the core, the more likely stars are to be younger. Orange stars, likely seen in groups in these images, are even younger: They are still encased in their cocoons of gas and dust, allowing them to continue forming.
+
+In Hubble’s images, younger stars pop out in blue and purple – and appear almost everywhere. In contrast, the older stars near the center of the galaxy appear yellowish.
+
+Star-Forming Regions
+Look for knots of bright red and orange in Webb’s image. These are especially easy to identify toward the outer edges of the galaxy’s spiral arms. These are regions of star formation, and mid-infrared light highlights the gas and dust that are a huge part of the mix, since they are primary ingredients for stars that are actively forming.
+
+In Hubble’s images, star-forming regions are clusters of bright blue and purple, or sometimes red and pink as hot stars energize nearby hydrogen gas.
+
+Background Galaxies
+Webb’s image includes distant galaxies that are located well behind the tightly cropped foreground galaxy. Look for bright blue and pink disks, some seen edge-on, like a plate with a central sphere. Redder galaxies are more distant.
+
+In Hubble’s view, distant galaxies are often light orange if they are slightly closer. Like in Webb's image, those that are deeper red are also more distant.
+
+Galaxy NGC 1087 was observed as part of the Physics at High Angular resolution in Nearby GalaxieS (PHANGS) program, a large project that includes observations from several space- and ground-based telescopes of many galaxies to help researchers study all phases of the star formation cycle, from the formation of stars within dusty gas clouds to the energy released in the process that creates the intricate structures revealed by Webb’s new images.
+
+NGC 1087 is 80 million light-years away in the constellation Cetus.",	NGC 1087,Spiral Galaxy,2:46:25,-0:29:55,Cetus,80000000,4.532,"	Webb> NIRCam, MIRI Hubble> WFC3/UVIS"
+https://stsci-opo.org/STScI-01HM9W1X49F5G3TERHQ2502EHT.png,"Caption
+Face-on barred spiral galaxy, NGC 1300, is split diagonally in this image: The James Webb Space Telescope’s observations appear at top left, and the Hubble Space Telescope’s on bottom right. Webb and Hubble’s images show a striking contrast, an inverse of darkness and light. Why? Webb’s observations combine near- and mid-infrared light and Hubble’s showcase visible light. Dust absorbs ultraviolet and visible light, and then re-emits it in the infrared. In Webb's images, we see dust glowing in infrared light. In Hubble’s images, dark regions are where starlight is absorbed by dust.
+
+The individual Webb and Hubble images are available for download using the links on the left side of this page.
+
+Color Decoder
+Gas and Dust
+In Webb’s high-resolution infrared images, the gas and dust stand out in stark shades of orange and red, and show finer spiral shapes with the appearance of jagged edges, though these areas are still diffuse.
+
+In Hubble’s images, the gas and dust show up as hazy dark brown lanes, following the same spiral shapes. Its images are about the same resolution as Webb’s, but the gas and dust obscure a lot of the smaller-scale star formation.
+
+Bright Central Spikes
+Bright red diffraction spikes at a galaxy’s core in a Webb image can be a “calling card” of an active supermassive black hole, as seen in galaxy NGC 7496. Not all oversized diffraction spikes at galaxies’ cores are caused by black holes, though. Sometimes, they appear when a slew of very bright, centrally located star clusters are in the central region of Webb’s image.
+
+In Hubble’s images, the galaxies’ cores are not as bright so these spikes are absent. Diffraction spikes only appear when the source is extremely bright and compact.
+
+Older Stars
+Sometimes, the central region in Webb’s image has a blue glow. This is a marker of high concentrations of older stars. Webb’s infrared observations allow us to see through the gas and dust to identify these older stars. The light these old stars emit are some of the shortest infrared wavelengths in Webb’s images, which is why they are assigned blue. (Read more about how color is precisely applied to Webb’s images.)
+
+In comparison, the cores of Hubble’s image may appear yellower, washing the central region in a soft glow and fully obscuring individual points of light. Hazy brown dust lanes may also cover part of this area. In Hubble’s images, older stars are emitting some of the longest wavelengths of visible light Hubble captures, which is why the color assignments are different. (Compare the wavelengths of light Hubble and Webb observe.)
+
+Younger Stars
+In Webb’s image, the newly fully formed stars also appear blue along the galaxies’ spiral arms. Those blue stars have blown away the gas and dust that immediately surrounded them. The farther away they are from the core, the more likely stars are to be younger. Orange stars, likely seen in groups in these images, are even younger: They are still encased in their cocoons of gas and dust, allowing them to continue forming.
+
+In Hubble’s images, younger stars pop out in blue and purple – and appear almost everywhere. In contrast, the older stars near the center of the galaxy appear yellowish.
+
+Star-Forming Regions
+Look for knots of bright red and orange in Webb’s image. These are especially easy to identify toward the outer edges of the galaxy’s spiral arms. These are regions of star formation, and mid-infrared light highlights the gas and dust that are a huge part of the mix, since they are primary ingredients for stars that are actively forming.
+
+In Hubble’s images, star-forming regions are clusters of bright blue and purple, or sometimes red and pink as hot stars energize nearby hydrogen gas.
+
+Background Galaxies
+Webb’s image includes distant galaxies that are located well behind the tightly cropped foreground galaxy. Look for bright blue and pink disks, some seen edge-on, like a plate with a central sphere. Redder galaxies are more distant.
+
+In Hubble’s view, distant galaxies are often light orange if they are slightly closer. Like in Webb's image, those that are deeper red are also more distant.
+
+Galaxy NGC 1300 was observed as part of the Physics at High Angular resolution in Nearby GalaxieS (PHANGS) program, a large project that includes observations from several space- and ground-based telescopes of many galaxies to help researchers study all phases of the star formation cycle, from the formation of stars within dusty gas clouds to the energy released in the process that creates the intricate structures revealed by Webb’s new images.
+
+NGC 1300 is 69 million light-years away in the constellation Eridanus.",NGC 1300,Barred spiral galaxy,3:19:41,-19:24:40,	Eridanus,69000000,8.1788,Webb+ NIRCam+MIRI Hubble+ ACS/WFC
