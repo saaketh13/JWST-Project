@@ -1,6 +1,7 @@
 # llm.py
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
+from functools import lru_cache
 
 # Load model and tokenizer
 def load_astrollama_model():
@@ -10,6 +11,25 @@ def load_astrollama_model():
     return tokenizer, model
 
 # Generate backstory based on image data
+def generate_backstory(image_data, tokenizer, model, creativity_level=0.7):
+    prompt = (
+        f"Write an engaging background lore about the following astronomical object:\n"
+        f"Object: {image_data['object_name']}\n"
+        f"Constellation: {image_data['Constellation']}\n"
+        f"Distance: {image_data['distance(lightyear)']} light years\n"
+        "Provide a detailed and creative background lore using these details. Include descriptions of possible civilizations or mythologies."
+    )
+    inputs = tokenizer(prompt, return_tensors="pt")
+    with torch.no_grad():
+        outputs = model.generate(inputs.input_ids, max_length=300, do_sample=True, temperature=creativity_level)
+    return tokenizer.decode(outputs[0], skip_special_tokens=True)
+
+# Wrapper function to get backstory for a given image
+def get_backstory_for_image(image_metadata, tokenizer, model):
+    return generate_backstory(image_metadata, tokenizer, model)
+
+
+@lru_cache(maxsize=128)
 def generate_backstory(image_data, tokenizer, model):
     prompt = (
         f"Write an engaging background lore about the following astronomical object:\n"
@@ -22,7 +42,3 @@ def generate_backstory(image_data, tokenizer, model):
     with torch.no_grad():
         outputs = model.generate(inputs.input_ids, max_length=200, do_sample=True, temperature=0.7)
     return tokenizer.decode(outputs[0], skip_special_tokens=True)
-
-# Wrapper function to get backstory for a given image
-def get_backstory_for_image(image_metadata, tokenizer, model):
-    return generate_backstory(image_metadata, tokenizer, model)

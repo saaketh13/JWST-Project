@@ -3,6 +3,8 @@ import pandas as pd
 import re
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 from fuzzywuzzy import fuzz, process
+from functools import lru_cache
+import torch
 
 # Load the dataset
 def load_data(filepath):
@@ -66,6 +68,18 @@ def process_question(question, data):
     intent = classify_intent(question, tokenizer, model)
     entities = extract_entities(question, data)
     return query_data(intent, entities, data)
+
+
+
+
+@lru_cache(maxsize=128)
+def process_question(question, data):
+    tokenizer, model = load_intent_model()
+    intent = classify_intent(question, tokenizer, model)
+    entities = extract_entities(question, data)
+    return query_data(intent, entities, data)
+
+
 
 # Example usage
 if __name__ == "__main__":
