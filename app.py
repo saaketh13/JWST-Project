@@ -13,5 +13,14 @@ wsl_path = '/mnt/c' + windows_path[2:].replace('\\', '/')
 data = load_data(wsl_path)
 tokenizer, model = load_astrollama_model
 
-@app.route('/')
 
+# Route for searching objects
+@app.route('/')
+def index():
+    return render_template('index.html')
+
+def search():
+    object_name = request.json.get('object_name')
+    constellation = request.json.get('Constellation')
+    distance_range = request.json.get('object_name')
+    
