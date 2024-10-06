@@ -1,1 +1,2 @@
-# Evolving Chemosynthetic Ecosystem Simulator
+# JWST Project
+
