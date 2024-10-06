@@ -1,18 +1,10 @@
 # query.py
-# Being able to query the data using english questions
-# question: "Find galaxies in the Carina constellation under 8000 light years"
-from transformers import pipeline, AutoTokenizer, AutoModelForSequenceClassification
-import torch
-import re
 import pandas as pd
-import main 
-from fuzzywuzzy import fuzz
-from fuzzywuzzy import process
+import re
+from transformers import AutoTokenizer, AutoModelForSequenceClassification
+from fuzzywuzzy import fuzz, process
 
-
-windows_path = r"C:\Users\Anaki\OneDrive\Desktop\codingprojects\jwst\JWST-Project\Copy of Dataset - Sheet1 (1).csv"
-wsl_path = '/mnt/c' + windows_path[2:].replace('\\', '/')
-
+# Load the dataset
 def load_data(filepath):
     try:
         data = pd.read_csv(filepath)
@@ -21,25 +13,26 @@ def load_data(filepath):
         print(f"Error loading CSV: {e}")
         return None
 
-tokenizer = AutoTokenizer.from_pretrained("AstroMLab/astrollama-2-7b-base_abstract")
-model = AutoModelForSequenceClassification.from_pretrained("AstroMLab/astrollama-2-7b-base_abstract")
+# Load the model and tokenizer for intent classification
+def load_intent_model():
+    tokenizer = AutoTokenizer.from_pretrained("AstroMLab/astrollama-2-7b-base_abstract")
+    model = AutoModelForSequenceClassification.from_pretrained("AstroMLab/astrollama-2-7b-base_abstract")
+    return tokenizer, model
 
-def classify_intent(question):
-    inputs = tokenizer(question, return_tensors="pt", truncation = True, padding = True)
+# Classify the intent from a user question
+def classify_intent(question, tokenizer, model):
+    inputs = tokenizer(question, return_tensors="pt", truncation=True, padding=True)
     outputs = model(**inputs)
-    probabilities = torch.nn.functional.softmax(outputs.logits, dim = 1)
+    probabilities = torch.nn.functional.softmax(outputs.logits, dim=1)
     intent = torch.argmax(probabilities).item()
-    return ["find", "distance"][intent] # Simplified intents
+    return ["find", "distance"][intent]
 
-def extract_entities(question):
-    object_entities = re.finall(r'(NGC \d+|M\d+)', question)
+# Extract entities from a user question
+def extract_entities(question, data):
+    object_entities = re.findall(r'(NGC \d+|M\d+)', question)
     constellation_names = data['Constellation'].unique().tolist()
-
-    matched_constellations = process.extractOne(question, constellation_names, scorer = fuzz.token_sort_ratio)
-    if matched_constellations[1] > 60:
-        constellation = matched_constellations[0] 
-    else:
-        None
+    matched_constellation = process.extractOne(question, constellation_names, scorer=fuzz.token_sort_ratio)
+    constellation = matched_constellation[0] if matched_constellation[1] > 60 else None
     distance = re.findall(r'(\d+) light years', question)
 
     return {
@@ -48,49 +41,44 @@ def extract_entities(question):
         "distance": distance
     }
 
+# Query the data based on intent and entities
 def query_data(intent, entities, data):
     if intent == "find":
         query = data
         if entities["constellation"]:
-            query = query[query['Constellation'].str.contains('|'.join(entities["constellation"]), case = False, na = False)]
+            query = query[query['Constellation'].str.contains('|'.join(entities["constellation"]), case=False, na=False)]
         if entities["distance"]:
             max_distance = int(entities["distance"][0])
             query = query[pd.to_numeric(query['distance(lightyear)'].str.replace(',', ''), errors='coerce') < max_distance]
         return query
-    elif intent == "distance":
-        if entities["object"]:
-            object_name = entities["object"][0]
-            result = data[data['object_name'].str.contains(object_name, case=False, na=False)]
-            if not result.empty:
-                return f"The distance of the {object_name} is {result['distance(lightyear)'].values[0]} light years."
-        elif intent == "description":
-            # Generate a backstory using a pre-trained language model like AstroMLab/astrollama-2-7b-base_abstract
-            return f"Generating an AI backstory for {entities['object'][0] if entities['object'] else 'the selected object'}."
-        return "I couldn't find an answer to that question."
+    elif intent == "distance" and entities["object"]:
+        object_name = entities["object"][0]
+        result = data[data['object_name'].str.contains(object_name, case=False, na=False)]
+        if not result.empty:
+            return f"The distance of {object_name} is {result['distance(lightyear)'].values[0]} light years."
+        return f"Object {object_name} not found."
     
+    return "I couldn't find an answer to that question."
 
+# Process and answer a natural language question
 def process_question(question, data):
-    intent = classify_intent(question)
-    entities = extract_entities(question)
+    tokenizer, model = load_intent_model()
+    intent = classify_intent(question, tokenizer, model)
+    entities = extract_entities(question, data)
     return query_data(intent, entities, data)
 
+# Example usage
+if __name__ == "__main__":
+    windows_path = r"C:\Users\Anaki\OneDrive\Desktop\codingprojects\jwst\JWST-Project\Copy of Dataset - Sheet1 (1).csv"
+    data = load_data(windows_path)
+    
+    questions = [
+        "Find galaxies in the Carina constellation under 8000 light years",
+        "What is the distance of NGC 604 in Triangulum?",
+        "Tell me about Orion objects"
+    ]
 
-data = load_data(wsl_path)
-questions = [
-    "Find galaxies in the Carina constellation under 8000 light years",
-    "What is the distance of NGC 604 in Triangulum?",
-    "Tell me about Orion objects"
-]
-
-
-for question in questions:
-    print(f"Question:  {question}")
-    result = process_question(question, data)
-    print("Answer: {result}")
-    print()
-
-
-# Example of using NLP to ask a question
-# user_question = "What is the distance of NGC 604 in Triangulum?"
-# result = query_csv_with_nlp(user_question, data)
-# print(result)
+    for question in questions:
+        print(f"Question: {question}")
+        answer = process_question(question, data)
+        print(f"Answer: {answer}")
